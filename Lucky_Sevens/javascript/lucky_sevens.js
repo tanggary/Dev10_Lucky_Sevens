@@ -30,7 +30,7 @@ function play() {
     reset();
     played = false;
   } else {
-    starting_bet = parseInt(document.getElementById("startingBet").value);
+    starting_bet = parseFloat(document.getElementById("startingBet").value);
     if (validation()) {
       var roll1;
       var roll2;
