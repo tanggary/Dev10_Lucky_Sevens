@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lucky Sevens</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet/lucky_sevens.css" />
+</head>
+
+<body>
+  <h1>Lucky Sevens</h1>
+  <section>
+    <article id="startForm">
+      <label id="startingBetLabel" for="startingBet">Starting Bet:</label>
+      <input type="number" id="startingBet" name="startingBet">
+      <br />
+      <br />
+      <button id="button">Play</button>
+    </article>
+    <article id="resultForm" style="display:none;">
+      <hr/>
+      <table id="results">
+        <thead>
+          <tr>
+            <th>Starting Bet</th>
+            <th id="sbResults"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Total Rolls Before Going Broke</td>
+            <td id="trResults"></td>
+          </tr>
+          <tr>
+            <td>Highest Amount Won</td>
+            <td id="haResults"></td>
+          </tr>
+          <tr>
+            <td>Roll Count at Highest Amount Won</td>
+            <td id="harResults"></td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+</body>
+<script type="text/javascript" src="javascript/lucky_sevens.js"></script>
+
+</html>

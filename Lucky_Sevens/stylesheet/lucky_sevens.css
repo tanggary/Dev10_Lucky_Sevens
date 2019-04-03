@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+
+#startingBet::-webkit-inner-spin-button,
+#startingBet::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  font-size: large;
+}
+
+button {
+  font-size: large;
+}
+
+table, td, th, tr {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #DCDFE4;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #E7E9ED;
+}
